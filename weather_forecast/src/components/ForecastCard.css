@@ -1,0 +1,41 @@
+/* extended-forecasts */
+.extended-forecast-heading {
+  color: #a09aa0;
+  margin-top: 50px;
+}
+
+.extended-forecasts-container {
+  margin-top: 15px;
+  display: flex;
+}
+
+.extended-forecasts-container .forecast-box {
+  width: calc(20% - 10px);
+  height: 120px;
+  border-radius: 4px;
+background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  color: #fff;
+  margin-right: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 768px){
+  .extended-forecasts-container{
+    flex-direction: column;
+  }
+
+  .extended-forecasts-container .forecast-box{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.forecast-box .min-max-temp{
+  margin-top: 5px;
+  font-weight: 500;
+}
