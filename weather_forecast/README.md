@@ -7,7 +7,7 @@ This is a React application built using Vite, a fast build tool for modern web d
 1. **Clone the repository:**
    ```bash
 
-      git clone https://github.com/your-username/your-project-name.git
+      git clone https://github.com/manvendra2301/Propacity-weatherapp.git
 
 
 2. **Install dependencies:**
